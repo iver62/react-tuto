@@ -1,14 +1,14 @@
 import { Component } from 'react';
 import './App.css';
-import ClassClick from './components/ClassClick';
-import FunctionClick from './components/FunctionClick';
+import EventBind from './components/EventBind';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <FunctionClick />
-        <ClassClick />
+        <EventBind />
+        {/* <FunctionClick /> */}
+        {/* <ClassClick /> */}
         {/* <Counter /> */}
         {/* <Message /> */}
         {/* <Greet name="Bruce" heroName="Batman">
