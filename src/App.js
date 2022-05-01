@@ -1,12 +1,13 @@
 import { Component } from 'react';
 import './App.css';
-import UserGreeting from './components/UserGreeting';
+import NameList from './components/NameList';
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <UserGreeting />
+        <NameList />
+        {/* <UserGreeting /> */}
         {/* <ParentComponent /> */}
         {/* <EventBind /> */}
         {/* <FunctionClick /> */}
